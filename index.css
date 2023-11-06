@@ -1,0 +1,146 @@
+/* Media Queries
+@media only screen and (min_width: 200px) {} */
+* {
+  display: 100vh;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  width: 50%;
+}
+
+.nav-logo {
+  width: 200px;
+}
+
+.navbar-link {
+  width: 50%;
+}
+
+.navbtn {
+  text-transform: uppercase;
+  margin: 18px 4px 1px 4px;
+  border: none;
+}
+
+.navbtn:hover {
+  color: white;
+  border: 1px solid orangered;
+  background-color: orangered;
+  border-width: 5px;
+}
+
+.body-container {
+  display: flex;
+  width: 100%;
+}
+
+.text-container {
+  width: 45%;
+  max-width: 400px;
+  margin: auto;
+  height: 500px;
+  font-size: 30px;
+  margin-top: 300px;
+  margin-left: 50px;
+}
+
+.description {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.568);
+}
+
+.chrome-btn {
+  text-transform: capitalize;
+  margin: 18px 4px 1px 4px;
+  border: 1px solid;
+  background-color: rgb(12, 12, 228);
+  color: white;
+  border-style: outset;
+}
+
+.firefox-btn {
+  text-transform: capitalize;
+  margin: 18px 4px 1px 4px;
+  border: 1px solid;
+  border-style: outset;
+}
+
+.side-container {
+  width: 55%;
+}
+
+.tab {
+  border: 10px solid black;
+  border-radius: 3ch;
+  align-items: flex-end;
+  width: 65%;
+  height: 500px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 0px;
+}
+
+.second-body {
+  margin-top: 50px;
+}
+.another-text {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.f-text {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.568);
+}
+
+.sec-nav {
+  background-color: rgba(0, 0, 255, 0.555);
+  height: 20%;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+}
+
+.left-nav {
+  width: 50%;
+}
+
+.right-nav {
+  width: 50%;
+}
+
+.side-body {
+  display: flex;
+  width: 100%;
+}
+
+.left-side-body {
+  width: 55%;
+  border: 180px solid white;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.right-side-body {
+  width: 2%;
+  border: 100px solid white;
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side-body-content {
+}

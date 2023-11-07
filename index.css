@@ -21,6 +21,7 @@ nav {
 
 .navbar-link {
   width: 50%;
+  text-align: end;
 }
 
 .navbtn {
@@ -74,6 +75,7 @@ nav {
 
 .side-container {
   width: 55%;
+  margin-left: 4%;
 }
 
 .tab {
@@ -143,4 +145,120 @@ nav {
 }
 
 .right-side-body-content {
+}
+
+footer {
+  border: 10px solid rgb(2, 2, 77);
+  width: 100%;
+  display: flex;
+  /* margin-top: 25px; */
+}
+
+.left-footer {
+  width: 50%;
+  display: flex;
+  background-color: rgb(2, 2, 77);
+}
+
+.right-footer {
+  width: 50%;
+  display: flex;
+  background-color: rgb(2, 2, 77);
+}
+
+.footer-logo {
+  width: 25%;
+  background-color: rgb(2, 2, 77);
+}
+
+.footer-logo h3 {
+  display: inline;
+  margin-left: 20px;
+  padding: 0;
+  background-color: rgb(2, 2, 77);
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-btn {
+  width: 25%;
+  display: flex;
+}
+
+.footbtn {
+  text-transform: uppercase;
+  margin: 0px;
+  border: none;
+  background-color: rgb(2, 2, 77);
+  color: white;
+}
+
+.photo-one {
+  width: 25%;
+  background-color: rgb(2, 2, 77);
+}
+
+.photo-two {
+  width: 25%;
+  background-color: rgb(2, 2, 77);
+}
+
+.icon-one {
+  background-color: rgb(2, 2, 77);
+  height: 20px;
+  width: 20px;
+  margin-left: 840px;
+}
+
+.icon-two {
+  background-color: rgb(2, 2, 77);
+  height: 20px;
+  width: 20px;
+  margin-left: 650px;
+}
+
+.before-footer {
+  border: 20px solid rgb(80, 18, 250);
+  background-color: rgb(80, 18, 250);
+  margin-top: 20px;
+  height: 200px;
+}
+
+.end-text-begin {
+  background-color: rgb(80, 18, 250);
+  color: white;
+  font-size: x-small;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.end-text-end {
+  background-color: rgb(80, 18, 250);
+  color: white;
+  font-size: medium;
+  text-align: center;
+  max-width: 190px;
+  margin: 0 auto;
+}
+
+.input-field {
+  display: flex;
+  margin-left: 819px;
+  margin-top: 13px;
+  margin-bottom: 60px;
+  background-color: rgb(80, 18, 250);
+}
+.email-box {
+  height: 40px;
+  border-radius: var(--size-radius);
+}
+
+.input-btn {
+  margin-left: 20px;
+  width: 100px;
+  border-radius: var(--size-radius);
+  color: white;
+  background-color: orangered;
 }
